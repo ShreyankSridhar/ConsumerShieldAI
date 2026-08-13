@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --muted: 220 14% 96%;
+  --muted-foreground: 220 9% 46%;
+  --primary: 239 84% 67%;
+  --primary-foreground: 0 0% 100%;
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --ring: 239 84% 67%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.trust-grid {
+  background-image:
+    linear-gradient(rgba(79, 70, 229, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(79, 70, 229, 0.08) 1px, transparent 1px);
+  background-size: 44px 44px;
+}

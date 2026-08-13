@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+.next/
+.next-dev/
+dist/
+build/
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+*.tsbuildinfo
+.env
+database/*.db
+database/chroma/
+uploads/*
+!uploads/.gitkeep
