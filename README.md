@@ -87,6 +87,10 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Deploy on Render
+
+The repository includes `render.yaml` to deploy the full application as two Render web services: a FastAPI API and a Next.js frontend. In Render, create a new Blueprint from this GitHub repository and set `CONSUMERSHEILDAI_GEMINI_API_KEY` in the API service's environment settings if Gemini generation is required. The application still works with its local deterministic fallback when that key is omitted.
+
 ## API
 
 `POST /api/ocr/extract`
